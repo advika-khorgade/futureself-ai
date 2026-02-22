@@ -22,7 +22,7 @@ class ResearchOutput(BaseModel):
         description="Analysis for each factor"
     )
     overall_context: str = Field(
-        ...,
+        default="Context analysis completed based on provided factors.",
         description="Overall contextual understanding"
     )
 

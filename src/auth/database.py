@@ -33,6 +33,7 @@ class DecisionHistory(Base):
     confidence_level = Column(Float)
     risk_score = Column(Float)
     opportunity_score = Column(Float)
+    tags = Column(String(500))  # Comma-separated tags
     created_at = Column(DateTime, default=datetime.utcnow)
     full_analysis = Column(Text)  # JSON string of full analysis
 
@@ -54,3 +55,4 @@ def get_session():
     engine = create_engine("sqlite:///data/futureself.db")
     Session = sessionmaker(bind=engine)
     return Session()
+

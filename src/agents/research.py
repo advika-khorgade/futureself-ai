@@ -20,6 +20,10 @@ For each factor, provide:
 - Specific considerations or data points
 - Relevant context that would inform scoring
 
+IMPORTANT: You must provide:
+1. "analyses" - array of analysis for each factor
+2. "overall_context" - a summary of the overall situation
+
 Be thorough but concise. Focus on actionable insights."""),
             ("user", """Decision: {decision}
 
@@ -28,7 +32,7 @@ Context: {context}
 Evaluation Factors:
 {factors}
 
-Analyze each factor in the context of this decision.""")
+Analyze each factor in the context of this decision. Provide both factor-specific analyses AND an overall_context summary.""")
         ])
     
     def run(
