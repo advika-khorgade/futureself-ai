@@ -629,7 +629,7 @@ If you find this project useful, please consider giving it a star! ⭐
 
 <div align="center">
 
-**Built with ❤️ using Python, FastAPI, LangGraph, and Streamlit**
+**Built using Python, FastAPI, LangGraph, and Streamlit**
 
 [⬆ Back to Top](#-futureself-ai---multi-agent-decision-intelligence-platform)
 
