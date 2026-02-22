@@ -16,24 +16,9 @@
 
 ---
 
-## 📸 Screenshots
+## 🎥 Demo Video
 
-### Main Dashboard
-> *Screenshot: Add screenshot of main analysis page here*
-<!-- ![Main Dashboard](screenshots/dashboard.png) -->
-
-### Analytics Dashboard
-> *Screenshot: Add screenshot of analytics page with charts here*
-<!-- ![Analytics](screenshots/analytics.png) -->
-
-### Decision Comparison
-> *Screenshot: Add screenshot of comparison feature here*
-<!-- ![Comparison](screenshots/comparison.png) -->
-
-### API Documentation (Swagger UI)
-> *Screenshot: Add screenshot of Swagger UI here*
-<!-- ![API Docs](screenshots/api-docs.png) -->
-
+[Click here to watch the demo](https://drive.google.com/file/d/1OVNnRzmf46qGYAHr0QBBdmvF7rLx5XIC/view?usp=sharing)
 ---
 
 ## ✨ Features
